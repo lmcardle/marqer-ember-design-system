@@ -29,7 +29,10 @@ module.exports = {
     }
 
     return this.addAddonsToProject({
-      packages: [{name: 'ember-cli-sass'}]
+      packages: [
+        {name: 'ember-cli-sass'},
+        {name: 'ember-truth-helpers'}
+      ]
     }).then(() => {
       return this.addPackagesToProject([
         {name: 'bulma', target: '^0.6.2'}
