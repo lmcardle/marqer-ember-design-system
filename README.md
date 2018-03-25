@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lmcardle/marqer-ember-design-system.svg?branch=master)](https://travis-ci.org/lmcardle/marqer-ember-design-system)
+
 marqer-ember-design-system
 ==============================================================================
 
