@@ -4,14 +4,14 @@ const Funnel    = require('broccoli-funnel');
 const mergeTrees = require('broccoli-merge-trees');
 
 module.exports = {
-  name: 'marqer-components',
+  name: 'marqer-ember-design-system',
 
   treeForStyles: function treeForStyles(tree) {
     let styleTrees = [];
 
     if (this.app.project.findAddonByName('ember-cli-sass')) {
       styleTrees.push(new Funnel('node_modules/bulma/sass', {
-        destDir: 'marqer-components'
+        destDir: 'marqer-ember-design-system'
       }));
     }
 

@@ -1,1 +1,1 @@
-export { default } from 'marqer-components/components/marqer-columns/component';
+export { default } from 'marqer-ember-design-system/components/marqer-columns/component';

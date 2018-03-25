@@ -15,7 +15,7 @@ module.exports = {
     let folderNames   = ['utilities', 'base', 'elements', 'components', 'grid', 'layout'];
 
     let importStatement = folderNames.map(function(folder) {
-      return `@import "marqer-components/${folder}/_all";`;
+      return `@import "marqer-ember-design-system/${folder}/_all";`;
     }).join('\n');
 
     if (!fs.existsSync(stylePath)) fs.mkdirSync(stylePath);

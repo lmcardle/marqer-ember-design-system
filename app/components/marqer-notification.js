@@ -1,1 +1,1 @@
-export { default } from 'marqer-components/components/marqer-notification/component';
+export { default } from 'marqer-ember-design-system/components/marqer-notification/component';

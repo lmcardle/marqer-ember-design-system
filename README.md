@@ -1,4 +1,4 @@
-marqer-components
+marqer-ember-design-system
 ==============================================================================
 
 [Short description of the addon.]
@@ -7,7 +7,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install marqer-components
+ember install marqer-ember-design-system
 ```
 
 
@@ -23,7 +23,7 @@ Contributing
 ### Installation
 
 * `git clone <repository-url>`
-* `cd marqer-components`
+* `cd marqer-ember-design-system`
 * `npm install`
 
 ### Linting
